@@ -45,8 +45,8 @@
         "direction":"Qiziqarlimi ?"
     },
     "weekly":{
-        "h2":"Eng Yaxshi Haftalik Takliflarimiz",
-        "p":"Har bir shaharda faqat siz uchun tuzilgan eng yaxshi haftalik takliflarni kashf eting. O'zingizni sarguzashtlar dunyosida his qiling."
+        "h2":"Unutilmas Sayohatlar Uchun Top 10 Go‘zal Maskan",
+        "p":"Sizni har hafta yangi imkoniyatlar va kutilmagan sarguzashtlar kutmoqda! Har bir shahar o‘zining maxfiy go‘zalliklarini ochib, sizga yangi sarguzashtlar sovg‘a qiladi. O‘zingizni shu mo‘jizalarning bir qismi deb his qiling!"
     },
     "weeklyCard":{
         "h5":"Tur O'z Ichiga Oladi:",
@@ -55,8 +55,8 @@
         "p3":"Eng yaxshi maznilar"
     },
     "visa":{
-        "h2":"Viza Olishga Yordam Beramiz",
-        "p":"Biz sizga oson, tez fursatda va albatta ishonchli viza olishga yordam beramiz."
+        "h2":"Ushbu manzillarga eksklyuziv sayohatlar taklif qilamiz!",
+        "p":"Xitoy shaharlarga siz uchun qulay va xavfsiz sayohatlar tashkil etamiz!"
     },
     "visaCard":{
         "h5":"Bizning xizmatlar o'z ichiga oladi:",

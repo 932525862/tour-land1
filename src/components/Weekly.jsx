@@ -2,14 +2,15 @@ import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import Container from "../utils/Utils";
 import { Swiper, SwiperSlide } from "swiper/react";
-import istanbul from "../assets/istanbul-mini.jpg"
+import panda from "../assets/panda.jpg"
 import xitoy1 from "../assets/xitoy1.jpg"
 import xitoy2 from "../assets/xitoy2.jpg"
 import zanjen from "../assets/zanjen.jpg"
 import togq from "../assets/togq.jpeg"
 import ftoq from "../assets/ftoq.jpeg"
-import hanji from "../assets/hanji.jpg"
+import hanji from "../assets/banbuk1.jpeg"
 import koprik from "../assets/koprik.webp"
+
 import "./Alll.css"
 
 
@@ -28,7 +29,7 @@ const Weekly = () => {
       <Container>
         <div>
           <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">{t('weekly.h2')}</h2>
-          <p className="text-center text-[12px] sm:text-[15px] text-[#AFAFAF] max-w-[627px] mx-auto mt-6 mb-20">
+          <p className="text-center text-[12px] sm:text-[15px] text-[#01294c] max-w-[627px] mx-auto mt-6 mb-20">
             {t('weekly.p')}
           </p>
           <Swiper
@@ -67,7 +68,7 @@ const Weekly = () => {
           >
   <SwiperSlide className="weekly-swiper-slide">
     <div className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl" >
-		<img  src={istanbul} alt="" className="swprimg" />
+		<img  src={panda} alt="" className="swprimg" />
       
     </div>
   </SwiperSlide>
