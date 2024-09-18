@@ -65,16 +65,16 @@
         "p3":"Ishonchli yordam"
     },
     "country":{
-        "usa":"AQSH",
-        "england":"Angliya",
-        "canada":"Kanada",
-        "europe":"Yevropa",
+        "usa":" Xi'an",
+        "england":"Chendu",
+        "canada":" Zhangjiajie",
+        "europe":"Shenzhen",
         "kuala":"Kuala Lumpur",
-        "japan":"Yaponiya",
-        "oman":"Oman",
-        "saudia":"Saudia Arabistoni",
-        "india":"Indiya",
-        "china":"Xitoy",
+        "japan":"Hainan ",
+        "oman":"Makao",
+        "saudia":"Buyuk Xitoy devori",
+        "india":"Pekin",
+        "china":"Beijing",
         "hong":"Gong Kong"
     },
     "checks":{
@@ -82,7 +82,7 @@
         "person":"kishi"
     },
     "destination":{
-        "h2":"Chiptalarni Biz Bilan Arzon Va Oson Toping",
+        "h2":"Biz Bilan Chiptalarni Arzon va Oson Toping.",
         "p":"Har bir shaharda eng yaxshi temir yo‘l va aviachipta biletlarini biz bilan toping"
     },
     "destinationCard":{

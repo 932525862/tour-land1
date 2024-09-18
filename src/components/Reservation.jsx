@@ -1,10 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-
+import pekin from "../assets/binod.webp"
 const Reservation = () => {
   const {t}=useTranslation()
   return (
-    <div className='flex flex-col items-center justify-center h-[608px] bg-cover bg-no-repeat bg-center' style={{backgroundImage:"url(https://zamontour.uz/assets/images/heading-bg-02.jpg)"}}>
+    <div className='flex flex-col items-center justify-center h-[608px] bg-cover bg-no-repeat bg-center' style={{backgroundImage:`url(${pekin})`}}>
         <h4 className='text-white text-center text-[14px] sm:text-xl'>{t('reservation.h4')}</h4>
         <div className='h-[2px] bg-[#fafafa] w-[100px] mt-6 mb-10'></div>
         <h2 className='sm:text-5xl text-2xl text-center font-bold text-white mb-16'>{t('reservation.h2')}</h2>

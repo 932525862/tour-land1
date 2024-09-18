@@ -31,7 +31,7 @@ const WeeklyCard = ({country,checks}) => {
         </p>
       </div>
       <div className="w-full text-center">
-        <button className="bg-main w-full text-white rounded-3xl py-3 text-[14px] mt-5 hover:bg-white hover:border-main border-[1px] hover:text-main transition-colors duration-500">
+        <button className=" bg-main w-full text-white rounded-3xl py-3 text-[14px] mt-5 hover:bg-white hover:border-main border-[1px] hover:text-main transition-colors duration-500" style={{ color: '#01294c' }}>
           <a href="#info">{t('button.reservation.1')}</a>
         </button>
       </div>

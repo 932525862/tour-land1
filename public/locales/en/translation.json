@@ -65,24 +65,24 @@
         "p3":"Trustworthy Assistance"
     },
     "country":{
-        "usa":"USA",
-        "england":"England",
-        "canada":"Canada",
-        "europe":"Europe",
+        "usa":" Сиань",
+        "england":"Chendu",
+        "canada":" Zhangjiajie",
+        "europe":"Shenzhen",
         "kuala":"Kuala Lumpur",
-        "japan":"Japan",
-        "oman":"Oman",
-        "saudia":"Saudia Arabia",
-        "india":"India",
-        "china":"China",
-        "hong":"Hong Kong"
+        "japan":"Hainan ",
+        "oman":"Makao",
+        "saudia":"Buyuk Xitoy devori",
+        "india":"Pekin",
+        "china":"Beijing",
+        "hong":"Gong Kong"
     },
     "checks":{
         "ins":"Check Ins",
         "person":"person"
     },
     "destination":{
-        "h2":"Explore Destinations With Ease",
+        "h2":"Find Tickets With us Easily and at a Low Price",
         "p":"Find the best deals on railway and airplane tickets in each city, carefully selected for you."
     },
     "destinationCard":{

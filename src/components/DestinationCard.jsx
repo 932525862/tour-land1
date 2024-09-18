@@ -15,7 +15,7 @@ const DestinationCard = ({img,title,subtitle,parag,population,territory,price}) 
             <div className='flex items-center justify-between'>
                 <h3 className='sm:text-xl text-[18px] max-w- text-[#2A2A2A] font-bold'>{title}</h3>
 
-                <button className='bg-main text-white rounded-3xl py-3 px-5 sm:px-10 sm:text-[14px] text-[12px] hover:bg-white hover:border-main border-[1px] hover:text-main transition-colors duration-500'><a href="#info">{t('button.explore')}</a></button>
+                <button className='bg-main text-white rounded-3xl py-3 px-5 sm:px-10 sm:text-[14px] text-[12px] hover:bg-white hover:border-main border-[1px] hover:text-main transition-colors duration-500'><a style={{ color: '#01294c' }} href="#info">{t('button.explore')}</a></button>
             </div>
             <p className='text-[15px] text-[#AFAFAF] my-8 md:mb-4 md:mt-0'>{subtitle}</p>
             <p className='text-[15px] text-[#AFAFAF] leading-8'>{parag}</p>
