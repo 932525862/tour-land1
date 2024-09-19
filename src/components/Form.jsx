@@ -50,7 +50,7 @@ const Form = () => {
     <div className='mb-28'>
         <Container>
             <div className='bg-[#f9f9f9] p-6 rounded-b-3xl shadow-card flex flex-col items-center pb-16'>
-                <h2 className='font-bold sm:text-3xl text-xl my-12 text-center'>{t('form.h2.f')} <span className='text-main'>{t('form.h2.s')}</span> {t('form.h2.t')} <span className='text-main'>{t('form.h2.fo')}</span></h2>
+                <h2 className='font-bold sm:text-3xl text-xl my-12 text-center'>{t('form.h2.f')} <span className='text-'>{t('form.h2.s')}</span> {t('form.h2.t')} <span className='text-'>{t('form.h2.fo')}</span></h2>
                 <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-6 w-[80%]'>
                     <div className='flex min-[1000px]:flex-row flex-col justify-between gap-10'>
                         <div className='w-full flex flex-col gap-2'>

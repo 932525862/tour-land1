@@ -71,8 +71,8 @@
         "europe":"Shenzhen",
         "kuala":"Kuala Lumpur",
         "japan":"Hainan ",
-        "oman":"Makao",
-        "saudia":"Buyuk Xitoy devori",
+        "oman":"Chandun",
+        "saudia":"The Great Wall of China",
         "india":"Pekin",
         "china":"Beijing",
         "hong":"Gong Kong"
@@ -99,28 +99,32 @@
     },
     "visit":{
         "h2":"Interesting facts about China",
-        "p":"Discover the best offers in each city, curated just for you. Immerse yourself in a world of savings and indulge in unparalleled experiences."
+        "p":"China has a unique garden culture and history. In this section, we will provide you with interesting information."
     },
     "visitCard":{
         "mil":"M",
         "km":"km",
+		"fakt1": "Tea culture",
+        "fakt2": "The Middle Kingdom",
+        "fakt3": "Chinese cuisine",
+        "fakt4": "The homeland of pandas",
         "1":{
-            "subtitle":"United Arab Emirated",
-            "parag":"Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks."
-        },
+			"subtitle": "Chinese Tea Culture",
+			"parag": "Chinese tea culture has developed over centuries and is one of the oldest traditions in the world. Drinking tea has become an integral part of daily life for the Chinese people, and this culture reflects not only the method of preparing the beverage but also the respect for health and spirit."
+		  },
         "2":{
-            "subtitle":"Turkey",
-            "parag":"Antalya is the fastest-growing city in Turkey, and tourists from around the world are discovering its fabulous mix of great beaches and traditional Turkish culture. Kids will love the Beach Park, which features Aqua Land (a waterslide-fanatic's dream) and Dolphin Land (home to dolphins, sea lions and white whales). Make sure to explore the old town center and to see Hadrian's Gate."
-        },
+			"subtitle": "China, The Middle Kingdom",
+			"parag": "(In Chinese, Tiānxià — 天下) is a concept of great significance in Chinese culture and history. This ancient phrase is used to describe China and the worldview associated with it. The concept of the Middle Kingdom developed during the imperial era of China, where it was seen as the place ruled by Heaven (Tian), and this rule was considered to extend to everything on Earth."
+		},
         "3":{
-            "subtitle":"Egypt",
-            "parag":"Sharm El Sheikh is the center of tourism action in Sinai Peninsula and it has the world top diving sites. Specially the underwater wonders of Ras Mohammed national park that took Sharm city to whole different level. The city has diving and shipwreck sites that attract both advanced and recreational divers from around the world to discover the un parallel marine life deep down the red sea."
-        },
+			"subtitle": "The Diversity of Chinese Cuisine",
+			"parag": "Chinese cuisine is famous worldwide for its diversity of dishes. Each region is known for its unique dishes, for example, Sichuan cuisine is known for its spiciness, while Beijing is famous for Peking duck."
+		},
 
         "4":{
-            "subtitle":"Turkey",
-            "parag":"Istanbul is the most populous city in Turkey and its cultural, economic and historic center. It is located in north-western part of Turkey, divided into European and Asian side by Bosphorus, which connects the Sea of Marmara and Black Sea. It is the only city in the world that sits on two continents."
-        }
+			"subtitle": "Pandas – A Diplomatic Symbol of China",
+			"parag": "Giant pandas play an important role in Chinese diplomacy. China has temporarily leased its pandas to other countries to strengthen diplomatic relations. This is known as panda diplomacy and is used to enhance China's relationships with international partners. The leased pandas can be seen in various zoos around the world, many of them in the USA, Japan, and European countries."
+		}
     },
     "reservation":{
         "h4":"Book Prefered Deal Here",
@@ -148,8 +152,8 @@
         "nameex":"Ex. John Smith",
         "phoneex":"Ex. +998 99 999 99 90",
         "guestsex":"Ex. 3 or 4 or 5",
-        "destinationex":"Ex. Antalya or Dubai or etc.",
-        "visaex":"Ex. Antalya or Dubai or etc."
+        "destinationex":"Ex.Beijing.",
+        "visaex":"Ex. China."
     },
     "footer":{
         "h2":"ARE YOU LOOKING TO TRAVEL ?",

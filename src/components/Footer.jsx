@@ -1,25 +1,141 @@
-import React from 'react'
-import footerImg from "../assets/footer.jpg"
-import { useTranslation } from 'react-i18next'
+import React from 'react';
+import footerImg from "../assets/footer.jpg";
+import { useTranslation } from 'react-i18next';
+import Telegram from "../assets/telegram.png"; 
+import Insata from "../assets/instagram.png"; 
 
 const Footer = () => {
-  const {t}=useTranslation()
+  const { t } = useTranslation();
   return (
-    <div>
-        <div className='bg-cover bg-center bg-no-repeat h-[240px] flex items-center' style={{backgroundImage:`url(${footerImg})`}}>
-                <div className='flex flex-col lg:flex-row gap-y-10 items-center justify-between w-full max-w-[1320px] mx-auto px-5'>
-                    <div className='text-center lg:text-left'>
-                        <h2 className='text-white sm:text-3xl text-2xl lg:text-[40px] font-bold'>{t('footer.h2')}</h2>
-                        <p className='text-white text-sm sm:text-md lg:text-xl font-semibold mt-3 lg:mt-2'>{t('footer.p')}</p>
-                    </div>
-                    <button className='border-[1px] sm:text-lg text-sm border-white text-white bg-main rounded-3xl h-[40px] lg:h-[47px] px-8 hover:bg-white hover:text-main transition-colors duration-300'><a href="#info">{t('button.book')}</a></button>
-                </div>
+    <footer className="relative pt-8 pb-6" style={{ backgroundColor: "#01294c" }}>
+      <div
+        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style={{ height: "80px" }}
+      ></div>
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap">
+          <div className="w-full lg:w-6/12 px-4">
+            <h4 className="text-3xl font-semibold text-white">
+			Tourland sifatli va ishonchli xizmatni kafolatlaydi.
+            </h4>
+            <h5 className="text-lg mt-0 mb-2 text-white">
+			Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!
+            </h5>
+            <div className="mt-6">
+              <button
+                className="bg-white text-blue-400 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <img src={Telegram} alt="" className="logos" />
+              </button>
+              <button
+                className="bg-white text-blue-600 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <img src={Insata} alt="" className="logos" />
+              </button>
+            </div>
+          </div>
+          <div className="w-full lg:w-6/12 px-4">
+            <div className="flex flex-wrap items-top mb-6">
+              <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <span className="block uppercase text-white text-sm font-semibold mb-2">
+                  Useful Links
+                </span>
+                <ul className="list-unstyled">
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Free Products
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full lg:w-4/12 px-4">
+                <span className="block uppercase text-white text-sm font-semibold mb-2">
+                  Other Resources
+                </span>
+                <ul className="list-unstyled">
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      MIT License
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Terms & Conditions
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="#"
+                    >
+                      Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='text-center bg-main text-[12px] sm:text-[15px] px-[20px] text-white h-[80px] flex items-center justify-center'>
-            <strong>Copyright &copy; 2024 Zamon Business Tour. All rights reserved.</strong>
+        <hr className="my-6 border-gray-400" />
+        <div className="flex flex-wrap items-center md:justify-between justify-center">
+          <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div className="text-sm text-white font-semibold py-1">
+              Copyright © {new Date().getFullYear()}{" "}Limsa{" "}
+              <a
+                href="https://www.limsa.uz/uz"
+                className="text-white hover:text-gray-900"
+              >
+                Creative Tim
+              </a>.
+            </div>
+          </div>
         </div>
-    </div>
-  )
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

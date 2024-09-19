@@ -99,27 +99,31 @@
     },
     "visit":{
         "h2":"Xitoy Haqida Qiziqarli Faktlar",
-        "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
+        "p":"Bilamizkiy, Xitoy o‘ziga xos bog‘ madaniyatiga va tarixiga ega. Biz sizga bu bo‘limda qiziqarli ma'lumotlarni taqdim etamiz."
     },
     "visitCard":{
         "mil":"mln",
         "km":"km",
+		"fakt1":"Choy madaniyati",
+		"fakt2":"Osmon osti mamlakati ",
+        "fakt3":"Xitoy oshxonasi",
+        "fakt4":"Pandalar vatani",
         "1":{
-            "subtitle":"Birlashgan Arab Amirliklari",
-            "parag":"Dubay - Birlashgan Arab Amirliklaridagi shahar va amirlik, hashamatli xaridlar, ultramodern arxitektura va jonli tungi hayot sahnasi bilan mashhur. Balandligi 830 m bo'lgan Burj Xalifa minorasi osmono'par binolar bilan to'ldirilgan osmon chizig'ida hukmronlik qiladi. Uning etagida musiqaga xoreografiya qilingan samolyotlar va chiroqlar bilan jihozlangan Dubay favvorasi joylashgan. Sun'iy orollarda Atlantis, Palm, suv va dengiz hayvonlari bog'lari joylashgan kurort joylashgan."
+            "subtitle":"Xitoyning choy madaniyati",
+            "parag":"Xitoy choy madaniyati asrlar davomida shakllangan va dunyodagi eng qadimiy an'analardan biridir. Choy ichish Xitoy xalqining kundalik hayotining ajralmas qismiga aylangan bo‘lib, bu madaniyat nafaqat ichimlikni tayyorlash uslubini, balki sog‘liq va ruhiyatga bo‘lgan hurmatni ham aks ettiradi."
         },
         "2":{
-            "subtitle":"Turkiya",
-            "parag":"Antaliya Turkiyaning eng tez rivojlanayotgan shahri bo'lib, butun dunyodan kelgan sayyohlar uning ajoyib plyajlari va an'anaviy turk madaniyatining ajoyib aralashmasini kashf qilmoqdalar. Bolalarga Aqua Land (suvli slaydni yaxshi ko'radiganlar orzusi) va Dolphin Land (delfinlar, dengiz sherlari va oq kitlarning uyi) o'rin olgan Beach Park yoqadi. Eski shahar markazini o'rganing va Hadrian darvozasini ko'ring."
+            "subtitle":"Xitoy Osmon osti mamlakati",
+            "parag":"(Xitoy tilida Tiānxià — 天下) tushunchasi Xitoy madaniyatida va tarixida muhim ahamiyatga ega. Bu qadimiy ibora Xitoyni va u bilan bog‘liq bo‘lgan dunyoqarashni tasvirlash uchun ishlatiladi. Osmon osti mamlakati tushunchasi Xitoy imperatorlik davrida shakllangan bo‘lib, Osmon (Tian) hukmronlik qiladigan joy sifatida ko‘rilgan va bu hukmronlik er yuzidagi barcha narsalarga taalluqli deb qaralgan."
         },
         "3":{
-            "subtitle":"Misr",
-            "parag":"Sharm El Sheikh - Sinay yarim orolidagi sayyohlik markazi bo'lib, unda dunyodagi eng yaxshi sho'ng'in joylari mavjud. Sharm shahrini butunlay boshqa darajaga olib chiqqan Ras Muhammad milliy bog'ining suv osti mo''jizalari. Shaharda Qizil dengiz tubidagi parallel dengiz hayotini kashf qilish uchun dunyoning turli burchaklaridan ilg'or va rekreatsion g'avvoslarni jalb qiladigan sho'ng'in va kema halokat joylari mavjud."
+            "subtitle":"Xitoy oshxonasining xilma-xilligi",
+            "parag":"Xitoy oshxonasi butun dunyoda mashhur bo‘lib, taomlarning xilma-xilligi bilan ajralib turadi. Har bir viloyat o‘ziga xos taomlari bilan tanilgan, masalan, Siçuan taomlari o‘tkir, Pekin esa Pekin o‘rdagi bilan mashhur"
         },
 
         "4":{
-            "subtitle":"Turkiya",
-            "parag":"Istanbul Turkiyaning eng gavjum shahri va uning madaniy, iqtisodiy va tarixiy markazidir. U Turkiyaning shimoli-g'arbiy qismida joylashgan bo'lib, Marmara va Qora dengizni bog'laydigan Bosfor bo'g'ozi orqali Yevropa va Osiyo tomoniga bo'linadi. Bu ikki qit'ada joylashgan dunyodagi yagona shahar."
+            "subtitle":"Pandalar – Xitoyning diplomatik ramzi",
+            "parag":"Gigant pandalar Xitoy diplomatiyasida muhim rol o‘ynaydi. Xitoy o‘z pandalarini boshqa davlatlarga diplomatik munosabatlarni mustahkamlash maqsadida vaqtincha ijaraga berib kelgan. Bu panda diplomatiyasi deb ataladi va Xitoyning xalqaro hamkorlar bilan aloqalarini mustahkamlashda ishlatiladi. Ijaraga olingan pandalar dunyodagi turli hayvonot bog‘larida bo‘lib, ularning ko‘pini AQSh, Yaponiya, va Yevropa davlatlarida ko‘rish mumkin."
         }
     },
     "reservation":{
@@ -148,8 +152,8 @@
         "nameex":"Misol. Palonchi Palonchiyev",
         "phoneex":"Misol. +998 99 999 99 90",
         "guestsex":"Misol. 3 yoki 4 yoki 5",
-        "destinationex":"Misol. Antalya yoki Dubai yoki shu kabi.",
-        "visaex":"Misol. Antalya yoki Dubai yoki shu kabi."
+        "destinationex":"Misol. Pekin ",
+        "visaex":"Misol.Xitoy ."
     },
     "footer":{
         "h2":"SAYOHAT QILISHNI XOHLAYSIZMI?",

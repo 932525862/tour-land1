@@ -17,7 +17,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
   return (
     <div
-      className={`py-6 bg-main sticky top-0 left-0 z-50 ${
+      className={`py-6 bg-main1 sticky top-0 left-0 z-50 ${
         open ? "overflow-visible" : "overflow-hidden"
       }`}
     >
