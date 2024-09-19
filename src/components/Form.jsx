@@ -28,8 +28,8 @@ const Form = () => {
 
     const onSubmit=async ({name,number,guests,date,destination,visa})=>{
         try{
-            const token='6913513849:AAExZ14b6cR_hyIkt8Vqiy8Q8lKQOSMsoac'
-            const chat_id='1481089412'
+            const token='7551301306:AAEVOCGkYjK9NrUD4kWZFMra6VbyHf0hp5Q'
+            const chat_id='-1002336918728'
             const url=`https://api.telegram.org/bot${token}/sendMessage`
             const message=`Name:${name}\n Phone Number:${number}\n Number of Guests:${guests}\n Date:${date}\n Destination:${destination}\n Visa Support:${visa}`
             const res=await axios({url:url,method:"POST",data:{'chat_id':chat_id,'text':message}})

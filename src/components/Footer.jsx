@@ -15,11 +15,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl font-semibold text-white">
-			Tourland sifatli va ishonchli xizmatni kafolatlaydi.
-            </h4>
+            <h4 className="text-3xl font-semibold text-white">{t('footer.h2')} </h4>
             <h5 className="text-lg mt-0 mb-2 text-white">
-			Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!
+			{t('footer.p')}
             </h5>
             <div className="mt-6">
               <button

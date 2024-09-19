@@ -156,8 +156,8 @@
         "visaex":"Misol.Xitoy ."
     },
     "footer":{
-        "h2":"SAYOHAT QILISHNI XOHLAYSIZMI?",
-        "p":"Unda biz bilan hoziroq bog'laning"
+        "h2":"Tourland sifatli va ishonchli xizmatni kafolatlaydi.",
+        "p":"Siz eng yaxshisiga loyiqsiz, Tourlend — eng yaxshi tanlov!"
     },
     "best":{
         "h2":"Eng Yaxshi Manzillar",
@@ -167,4 +167,6 @@
         "success":"Muvaffaqiyatli yuborildi",
         "error":"Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
     }
+	
+	
 }
