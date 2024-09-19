@@ -35,7 +35,7 @@
     },
     "button":{
         "explore":"Explore More",
-        "go":"Go There",
+        "go":"Contact us",
         "reservation":{
             "1":"Make A Reservation",
             "2":"Make A Reservation Now"
@@ -166,5 +166,13 @@
     "formsent":{
         "success":"Sent Successfully",
         "error":"Could not send. Please try again"
-    }
+    },
+	"modal": {
+    "titel": "Please fill out this form.",
+    "ism": "Your name",
+    "famila": "Your surname",
+    "tel": "Your phone number",
+    "telegram": "Your Telegram username",
+    "yubor": "Submit"
+  }
 }

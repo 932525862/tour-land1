@@ -9,6 +9,7 @@ import {Autoplay, Pagination, FreeMode} from "swiper/modules";
 import {useTranslation} from "react-i18next";
 import BannerContent from "./BannerContent";
 
+
 const Banner = () => {
   const {t} = useTranslation();
   return (

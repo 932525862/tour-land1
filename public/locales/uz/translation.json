@@ -35,7 +35,7 @@
     },
     "button":{
         "explore":"Ko'proq Bilish",
-        "go":"Borishni Xohlaysizmi ?",
+        "go":"Biz bilan bog'laning",
         "reservation":{
             "1":"Joy Band Qilish",
             "2":"Band Qilish"
@@ -166,7 +166,15 @@
     "formsent":{
         "success":"Muvaffaqiyatli yuborildi",
         "error":"Yuborib bo'lmadi. Iltimos, yana bir bor urinib ko'ring"
-    }
+    },
+	"modal":{
+		"titel":"Iltimos, ushbu formani to'ldiring.",
+		"ism": "Ismingiz",
+		"famila":"Familyangiz",
+		"tel":"telefon ingiz",
+		"telegram ":"telegram useringiz",
+		"yubor":"Yuborish"
+	}
 	
 	
 }
