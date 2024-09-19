@@ -10,6 +10,7 @@ import england from "../assets/englanda.jpg";
 import europe from "../assets/bannb.jpg";
 import canada from "../assets/canada.jpg";
 
+
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -19,6 +20,10 @@ import {useTranslation} from "react-i18next";
 
 const Visa = () => {
   const {t} = useTranslation();
+    
+  
+
+
   return (
     <div className="mb-10 mt-24">
       <Container>
@@ -130,6 +135,7 @@ const Visa = () => {
           </Swiper>
         </div>
       </Container>
+	  
     </div>
   );
 };
