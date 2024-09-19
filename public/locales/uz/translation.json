@@ -98,7 +98,7 @@
         }
     },
     "visit":{
-        "h2":"Shaharlardan Biriga Hoziroq Tashrif Buyuring",
+        "h2":"Xitoy Haqida Qiziqarli Faktlar",
         "p":"Har bir shahardagi eng yaxshi takliflarimizni kashf eting, faqat siz uchun. O'zingiz uchun yangi dunyosni oching va misli ko'rilmagan sarguzashtlar ega bo'ling."
     },
     "visitCard":{
@@ -130,7 +130,7 @@
         "phone":"Telefon raqam",
         "email":"Bizga email orqali bog'laning",
         "location":"Ofisimizga tashrif buyuring",
-        "place":"15/25, Chilanzar - 9, Tashkent city"
+        "place":"Toshkent, Burijar ko'chasi"
     },
     "form":{
         "h2":{
