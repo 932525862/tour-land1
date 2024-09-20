@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Container from "../utils/Utils";
-import logo from "../assets/tourland_logof.png";
+import logo from "../assets/loggg.png";
 import Telegram from "../assets/telegram.png"; 
 import Insata from "../assets/instagram.png"; 
 import i18next from "../language/i18next";
@@ -34,7 +34,7 @@ const Nav = () => {
                 <a
                   href="#"
                   style={{ color: "rgb(28, 49, 97)" }}
-                  className="hover:text-black transition-colors duration-300 text-x"
+                  className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.home")}
                 </a>
@@ -43,7 +43,7 @@ const Nav = () => {
                 <a
                   href="#"
                   style={{ color: "rgb(28, 49, 97)" }}
-                  className="hover:text-black transition-colors duration-300 text-x"
+                  className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.about")}
                 </a>
@@ -52,7 +52,7 @@ const Nav = () => {
                 <a
                   href="#"
                   style={{ color: "rgb(28, 49, 97)" }}
-                  className="hover:text-black transition-colors duration-300 text-x"
+                  className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.tours")}
                 </a>
@@ -61,7 +61,7 @@ const Nav = () => {
                 <a
                   href="#"
                   style={{ color: "rgb(28, 49, 97)" }}
-                  className="hover:text-black transition-colors duration-300 text-x"
+                  className="hover:text-black transition-colors duration-300 text-xl"
                 >
                   {t("nav.contact")}
                 </a>
@@ -71,21 +71,21 @@ const Nav = () => {
               <button
                 onClick={() => changeLang("ru")}
                 style={{ color: "rgb(28, 49, 97)" }}
-                className="hover:text-black transition-colors duration-300 "
+                className="hover:text-black text-xl transition-colors duration-300 "
               >
                 ru
               </button>
               <button
                 onClick={() => changeLang("en")}
                 style={{ color: "rgb(28, 49, 97)" }}
-                className="hover:text-black transition-colors duration-300"
+                className="hover:text-black text-xl transition-colors duration-300"
               >
                 eng
               </button>
               <button
                 onClick={() => changeLang("uz")}
                 style={{ color: "rgb(28, 49, 97)" }}
-                className="hover:text-black transition-colors duration-300"
+                className="hover:text-black text-xl transition-colors duration-300"
               >
                 uz	
               </button>
@@ -209,7 +209,7 @@ const Nav = () => {
               >
                 <a
                   className="text-black text-xl hover:text-black transition-colors duration-300 flex justify-center"
-                  href="https://t.me/zamonbiznestour"
+                  href="#"
                 >
                  <img src={Telegram} alt="Telegram" className="w-6 h-6" />
                 </a>
@@ -217,7 +217,7 @@ const Nav = () => {
               <li onClick={() => setOpen(false)}>
                 <a
                   className="text-black text-xl hover:text-black transition-colors duration-300"
-                  href="https://www.instagram.com/zamontour/"
+                  href="https://www.instagram.com/tourland_uz?igsh=MTFlMzIzazMxbXdvNw%3D%3D&utm_source=qr"
                 >
                   <img src={Insata} alt="Instagram" className="w-6 h-6" />
                 </a>

@@ -1,23 +1,29 @@
-import React, { useState } from "react"; // useState import qilingan
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosPricetags, IoIosTime, IoMdCheckmark } from "react-icons/io";
 import { PiUsersThreeFill } from "react-icons/pi";
-import ContactModal from "./ContactModal"; 
+import ContactModal from "./ContactModal";
 
-const WeeklyCard = ({ country, checks }) => {
+const WeeklyCard = ({ country, checks, swiper }) => {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Modalni ochish funksiyasi
+  useEffect(() => {
+    if (isModalOpen && swiper && swiper.autoplay) {
+      swiper.autoplay.stop();
+    } else if (swiper && swiper.autoplay) {
+      swiper.autoplay.start();
+    }
+  }, [isModalOpen, swiper]);
+
   const openModal = () => {
     setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';  // Sahifa harakatlanishini to'xtatish
+    document.body.style.overflow = 'hidden';
   };
 
-  // Modalni yopish funksiyasi
   const closeModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = 'auto';  // Sahifa harakatini tiklash
+    document.body.style.overflow = 'auto';
   };
 
   return (
@@ -53,7 +59,7 @@ const WeeklyCard = ({ country, checks }) => {
           {t('button.reservation.1')}
         </button>
         {isModalOpen && (
-          <ContactModal closeModal={closeModal} /> // Modalni yopish funksiyasini uzatamiz
+          <ContactModal closeModal={closeModal} />
         )}
       </div>
     </div>

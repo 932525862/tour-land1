@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 .navbar{
-	height: 25px;
+	height: 85px;
 	
 }
 
 .logos{
-	width: 210px;
+	width: 200px;
+	height: 200px;
 }
 
 
