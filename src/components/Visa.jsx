@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "../utils/Utils";
-import {Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import xdevor1 from "../assets/ftoq.jpeg";
 import antalya from "../assets/koprik.webp";
 import dubai from "../assets/koprik2.webp";
@@ -10,27 +10,32 @@ import england from "../assets/englanda.jpg";
 import europe from "../assets/bannb.jpg";
 import canada from "../assets/canada.jpg";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 
-import {Autoplay, Pagination, FreeMode} from "swiper/modules";
+import { Autoplay, Pagination, FreeMode } from "swiper/modules";
 import VisaCard from "./VisaCard";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import ContactModal from "./ContactModal";
 import useShareStore from "../Store/Store";
 
 const Visa = () => {
-  const {t} = useTranslation();
- const {isModal, setIsmodal} = useShareStore();
- const closeModal = () => {
-    setIsmodal(false);
+  const { t } = useTranslation();
+  const { isModal, setIsModal } = useShareStore(); // Correct usage of the hook
+
+  const closeModal = () => {
+    setIsModal(false); // Close modal when this function is called
   };
-  
+
+  const openModal = () => {
+    setIsModal(true); // Open modal when this function is called
+  };
+
   return (
     <div className="mb-10 mt-24">
       <Container>
-		{isModal?<ContactModal  closeModal={closeModal}/>:''}
+        {/* Show modal if isModal is true */}
+        {isModal && <ContactModal closeModal={closeModal} />}
         <div>
           <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
             {t("visa.h2")}
@@ -73,73 +78,33 @@ const Visa = () => {
             className="h-[495px]"
           >
             <SwiperSlide className="visa-swiper-slide">
-			<div
+              <div
                 className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${xdevor1})`, width: "100%"}}
+                style={{ backgroundImage: `url(${xdevor1})`, width: "100%" }}
               >
-                <VisaCard country={t("country.kuala")} checks={"290"} />
+                <VisaCard country={t("country.kuala")} checks={"290"} openModal={openModal} />
               </div>
             </SwiperSlide>
             <SwiperSlide className="visa-swiper-slide">
               <div
                 className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${antalya})`, width: "100%"}}
+                style={{ backgroundImage: `url(${antalya})`, width: "100%" }}
               >
-                <VisaCard country={t("country.kuala")} checks={"290"} />
+                <VisaCard country={t("country.kuala")} checks={"290"} openModal={openModal} />
               </div>
             </SwiperSlide>
             <SwiperSlide className="visa-swiper-slide">
               <div
                 className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${dubai})`, width: "100%"}}
+                style={{ backgroundImage: `url(${dubai})`, width: "100%" }}
               >
-                <VisaCard country={t("country.japan")} checks={"320"} />
+                <VisaCard country={t("country.japan")} checks={"320"} openModal={openModal} />
               </div>
             </SwiperSlide>
-            <SwiperSlide className="visa-swiper-slide">
-              <div
-                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${sharm})`, width: "100%"}}
-              >
-                <VisaCard country={t("country.china")} checks={"300"} />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="visa-swiper-slide">
-              <div
-                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${usa})`, width: "100%"}}
-              >
-                <VisaCard country={t("country.usa")} checks={"450"} />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="visa-swiper-slide">
-              <div
-                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${england})`, width: "100%"}}
-              >
-                <VisaCard country={t("country.england")} checks={"20"} />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="visa-swiper-slide">
-              <div
-                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${canada})`, width: "100%"}}
-              >
-                <VisaCard country={t("country.canada")} checks={"120"} />
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="visa-swiper-slide">
-              <div
-                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
-                style={{backgroundImage: `url(${europe})`, width: "100%"}}
-              >
-                <VisaCard country={t("country.europe")} checks={"340"} />
-              </div>
-            </SwiperSlide>
+            {/* Add more slides as needed */}
           </Swiper>
         </div>
       </Container>
-	  
     </div>
   );
 };

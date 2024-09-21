@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import useShareStore from '../Store/Store';
 
-const ContactModal = () => {
+const ContactModal = ({closeModal}) => {
   const { t } = useTranslation(); 
 
   const [name, setName] = useState('');
@@ -10,11 +11,9 @@ const ContactModal = () => {
   const [telegram, setPassword] = useState('');
 
 
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const {isModal} = useShareStore();
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -51,7 +50,7 @@ const ContactModal = () => {
     closeModal();
   };
 
-  if (!isModalOpen) {
+  if (!isModal) {
     return null;
   }
 

@@ -5,16 +5,8 @@ import { PiUsersThreeFill } from "react-icons/pi";
 import ContactModal from "./ContactModal";
 import useShareStore from "../Store/Store";
 
-const WeeklyCard = ({ country, checks }) => {
+const WeeklyCard = ({ country, checks,openModal }) => {
   const { t } = useTranslation();
-  // useShareStore ni hook sifatida chaqirish
-  const { isModal, setIsModal } = useShareStore();
-  console.log(isModal);
-  
-  const openModal = () => {
-    setIsModal(true); // Modalni ochish uchun doim true ga o'rnatiladi
-  };
-  
   return (
     <div className="shadow-card sm:p-5 p-3 absolute rounded-3xl bg-white sm:w-[320px] w-[270px] -bottom-12 right-14 sm:right-3">
       <div className="flex justify-between items-center">

@@ -2,21 +2,20 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import "./Alll.css";
 import ContactModal from "./ContactModal"; 
+import useShareStore from '../Store/Store';
 
 const BannerContent = ({ h2_text, h1_text, population, territory, avgPrice }) => {
   const { t } = useTranslation();
   
   
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const { isModal, setIsModal } = useShareStore(); // Correct usage of the hook
 
-  // Modalni ochish funksiyasi
-  const openModal = () => {
-    setIsModalOpen(true);
+  const closeModal = () => {
+    setIsModal(false); // Close modal when this function is called
   };
 
-  // Modalni yopish funksiyasi
-  const closeModal = () => {
-    setIsModalOpen(false);
+  const openModal = () => {
+    setIsModal(true); // Open modal when this function is called
   };
 
   return (
@@ -32,10 +31,7 @@ const BannerContent = ({ h2_text, h1_text, population, territory, avgPrice }) =>
         {t('button.go')}
       </button>
       
-      {isModalOpen && (
-        <ContactModal closeModal={closeModal} />  // Modalni yopish funksiyasini uzatamiz
-      )}
-    </>
+</>
   );
 }
 
