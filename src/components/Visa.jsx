@@ -101,7 +101,38 @@ const Visa = () => {
                 <VisaCard country={t("country.japan")} checks={"320"} openModal={openModal} />
               </div>
             </SwiperSlide>
-            {/* Add more slides as needed */}
+			<SwiperSlide className="visa-swiper-slide">
+              <div
+                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
+                style={{backgroundImage:` url(${usa})`, width: "100%"}}
+              >
+                <VisaCard country={t("country.usa")} checks={"450"} openModal={openModal}/>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="visa-swiper-slide">
+              <div
+                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
+                style={{backgroundImage: `url(${england})`, width: "100%"}}
+              >
+                <VisaCard country={t("country.england")} checks={"20"} openModal={openModal}/>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="visa-swiper-slide">
+              <div
+                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
+                style={{backgroundImage: `url(${canada})`, width: "100%"}}
+              >
+                <VisaCard country={t("country.canada")} checks={"120"} openModal={openModal}/>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="visa-swiper-slide">
+              <div
+                className="relative bg-contain bg-no-repeat min-h-[400px] max-h-[400px] rounded-t-2xl rounded-bl-2xl"
+                style={{backgroundImage: `url(${europe})`, width: "100%"}}
+              >
+                <VisaCard country={t("country.europe")} checks={"340"} openModal={openModal}/>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </Container>
