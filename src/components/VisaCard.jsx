@@ -1,31 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { IoIosPricetags, IoIosTime, IoMdCheckmark } from "react-icons/io";
 import { PiUsersThreeFill } from "react-icons/pi";
 import ContactModal from "./ContactModal";
+import useShareStore from "../Store/Store";
 
-const WeeklyCard = ({ country, checks, swiper }) => {
+const WeeklyCard = ({ country, checks }) => {
   const { t } = useTranslation();
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  useEffect(() => {
-    if (isModalOpen && swiper && swiper.autoplay) {
-      swiper.autoplay.stop();
-    } else if (swiper && swiper.autoplay) {
-      swiper.autoplay.start();
-    }
-  }, [isModalOpen, swiper]);
-
+  // useShareStore ni hook sifatida chaqirish
+  const { isModal, setIsModal } = useShareStore();
+  console.log(isModal);
+  
   const openModal = () => {
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
+    setIsModal(true); // Modalni ochish uchun doim true ga o'rnatiladi
   };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
-  };
-
+  
   return (
     <div className="shadow-card sm:p-5 p-3 absolute rounded-3xl bg-white sm:w-[320px] w-[270px] -bottom-12 right-14 sm:right-3">
       <div className="flex justify-between items-center">
@@ -58,9 +47,6 @@ const WeeklyCard = ({ country, checks, swiper }) => {
         >
           {t('button.reservation.1')}
         </button>
-        {isModalOpen && (
-          <ContactModal closeModal={closeModal} />
-        )}
       </div>
     </div>
   );

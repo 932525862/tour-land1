@@ -17,16 +17,20 @@ import "swiper/css/pagination";
 import {Autoplay, Pagination, FreeMode} from "swiper/modules";
 import VisaCard from "./VisaCard";
 import {useTranslation} from "react-i18next";
+import ContactModal from "./ContactModal";
+import useShareStore from "../Store/Store";
 
 const Visa = () => {
   const {t} = useTranslation();
-    
+ const {isModal, setIsmodal} = useShareStore();
+ const closeModal = () => {
+    setIsmodal(false);
+  };
   
-
-
   return (
     <div className="mb-10 mt-24">
       <Container>
+		{isModal?<ContactModal  closeModal={closeModal}/>:''}
         <div>
           <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#2A2A2A]">
             {t("visa.h2")}

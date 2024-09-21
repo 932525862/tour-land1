@@ -19,18 +19,18 @@ const Footer = () => {
             <h5 className="text-lg mt-0 mb-2 text-white">
 			{t('footer.p')}
             </h5>
-            <div className="mt-6">
+            <div className="mt-6 flex gap-2 ">
               <button
-                className="bg-white text-blue-400 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className=" flex items-center justify-center bg-white text-blue-400 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <img src={Telegram} alt="" className="logos" />
+                <img src={Telegram} alt="" className="logoss object-contain" />
               </button>
               <button
-                className="bg-white text-blue-600 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className="flex items-center justify-center bg-white text-blue-600 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <img src={Insata} alt="" className="logos" />
+                <img src={Insata} alt="" className="logoss object-contain" />
               </button>
             </div>
           </div>
