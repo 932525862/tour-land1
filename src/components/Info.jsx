@@ -16,7 +16,7 @@ const Info = () => {
 					<FaPhoneAlt style={{ color: '#A8CA3D' }} />	
                     </div>
                     <h2 className='font-bold text-center text-[16px] sm:text-[20px] text-[#2a2a2a]'>{t('info.phone')}</h2>
-                    <a className='text-main text-center' href="tel:+998994778241"><p style={{ color: '#A8CA3D' }}>+998 99 477 82 41</p></a>
+                    <a className='text-main text-center' href="tel:+998771113777"><p style={{ color: '#A8CA3D' }}>+998 77 111 37 77</p></a>
                 </div>
                 <div className='md:w-[33%] px-4 w-full bg-white shadow-card rounded-2xl flex flex-col items-center justify-center gap-5 h-[290px]'>
                     <div className='bg-[#f0f0f0] rounded-full w-[60px] h-[60px] grid place-items-center text-main text-2xl'>
