@@ -3,7 +3,7 @@ import footerImg from "../assets/footer.jpg";
 import { useTranslation } from 'react-i18next';
 import Telegram from "../assets/telegram.png"; 
 import Insata from "../assets/instagram.png"; 
-
+import facebook from "../assets/facebook.png";
 const Footer = () => {
   const { t } = useTranslation();
   return (
@@ -32,6 +32,12 @@ const Footer = () => {
               >
                 <img src={Insata} alt="" className="logoss object-contain" />
               </button>
+			  <button
+                className="flex items-center justify-center bg-white text-blue-600 shadow-lg font-normal h-11 w-11 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <img src={facebook} alt="" className="logoss object-contain" />
+              </button>
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -46,7 +52,7 @@ const Footer = () => {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      About Us
+                     Bosh Sahifa
                     </a>
                   </li>
                   <li>
@@ -54,25 +60,10 @@ const Footer = () => {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Blog
+                      Biz Haqimizda
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Free Products
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
               <div className="w-full lg:w-4/12 px-4">
@@ -85,7 +76,7 @@ const Footer = () => {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      MIT License
+                     Turlar
                     </a>
                   </li>
                   <li>
@@ -93,25 +84,10 @@ const Footer = () => {
                       className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href="#"
                     >
-                      Terms & Conditions
+                      Kontaktlar
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-white hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>

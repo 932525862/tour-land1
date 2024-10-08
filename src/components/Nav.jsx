@@ -3,6 +3,7 @@ import Container from "../utils/Utils";
 import logo from "../assets/loggg.png";
 import Telegram from "../assets/telegram.png"; 
 import Insata from "../assets/instagram.png"; 
+import facebook from "../assets/facebook.png";
 import i18next from "../language/i18next";
 import { useTranslation } from "react-i18next";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -91,15 +92,21 @@ const Nav = () => {
               </button>
               <a
                 className="text-white text-xl hover:text-black transition-colors duration-300"
-                href=""
+                href="https://t.me/tourland_uz"
               >
                 <img src={Telegram} alt="Telegram" className="w-6 h-6" />
               </a>
               <a
                 className="text-white text-xl hover:text-black transition-colors duration-300"
-                href=""
+                href="https://www.instagram.com/tourland_uz?igsh=MTFlMzIzazMxbXdvNw%3D%3D&utm_source=qr"
               >
                 <img src={Insata} alt="Instagram" className="w-6 h-6" />
+              </a>
+			  <a
+                className="text-white text-xl hover:text-black transition-colors duration-300"
+                href="https://www.facebook.com/profile.php?id=61565792592998&mibextid=LQQJ4d"
+              >
+                <img src={facebook} alt="Instagram" className="w-6 h-6" />
               </a>
             </div>
           </div>
@@ -209,7 +216,7 @@ const Nav = () => {
               >
                 <a
                   className="text-black text-xl hover:text-black transition-colors duration-300 flex justify-center"
-                  href="#"
+                  href="https://t.me/tourland_uz"
                 >
                  <img src={Telegram} alt="Telegram" className="w-6 h-6" />
                 </a>
@@ -222,6 +229,15 @@ const Nav = () => {
                   <img src={Insata} alt="Instagram" className="w-6 h-6" />
                 </a>
               </li>
+			  <li onClick={() => setOpen(false)}>
+			  <a
+                className="text-white text-xl hover:text-black transition-colors duration-300"
+                href="https://www.facebook.com/profile.php?id=61565792592998&mibextid=LQQJ4d"
+              >
+                <img src={facebook} alt="Instagram" className="w-6 h-6" />
+              </a>
+              </li>
+
             </ul>
           </div>
         </div>
